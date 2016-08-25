@@ -5,4 +5,4 @@ RUN pacman --noconfirm -Sy archlinux-keyring \
     && pacman-db-upgrade \
     && trust extract-compat
 
-RUN pacman --noconfirm -S texlive-bin
+RUN pacman --noconfirm -S texlive-core
